@@ -9,6 +9,7 @@ ScriptsOnlyBuild:
     - gameOver
     - moveForward
     - moveTowardsPlayer
+    - mute
     - pauseMenu
     - pickUps
     - playerController
@@ -31,6 +32,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -170,6 +172,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 11256}
     - Class: 114
       Script: {instanceID: 11512}
+    - Class: 114
+      Script: {instanceID: 16014}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -770,6 +774,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: dontDestroyOnLoad
+  - hash:
+      serializedVersion: 2
+      Hash: 633cab46b8e00cecb5e2cf61d24d796d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: mute
   platform: 5
   scenePathNames:
   - Assets/Scenes/menu.unity
