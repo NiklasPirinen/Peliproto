@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class bossSpawner : MonoBehaviour
 {
-    private float spawnRangeX = 20f;
+    private float spawnRangeX = 15f;
     public GameObject boss;
 
     public float startDelay;
